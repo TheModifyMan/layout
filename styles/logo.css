@@ -1,0 +1,13 @@
+.logo {
+    padding-top: 34px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    display: block;
+}

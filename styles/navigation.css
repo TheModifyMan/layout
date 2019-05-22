@@ -1,0 +1,26 @@
+.Navigation__list {
+    display: flex;
+    flex-direction: row;   
+}
+
+.Navigation__link {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.Navigation__link:Hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+.Navigation__actions {
+    display: flex;
+    align-items: center;
+}
+
+.Navigation {
+    display: flex;
+    align-items: center;
+}
