@@ -1,0 +1,29 @@
+    a.rollover {
+    background-color: grey; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 362px; /* Ширина рисунка */
+    height: 272px; /*  Высота рисунка */
+   }
+   a.rollover:hover {
+    background: url(/img/link1.png); /* Путь к файлу с заменяемым рисунком  */
+   }
+
+   a.rollover1 {
+    background-color: grey; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 362px; /* Ширина рисунка */
+    height: 272px; /*  Высота рисунка */
+   }
+   a.rollover1:hover {
+    background: url(/img/link2.png); /* Путь к файлу с заменяемым рисунком  */
+   }
+
+   a.rollover2 {
+    background-color: grey; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 362px; /* Ширина рисунка */
+    height: 272px; /*  Высота рисунка */
+   }
+   a.rollover2:hover {
+    background: url(/img/link3.png); /* Путь к файлу с заменяемым рисунком  */
+   }
