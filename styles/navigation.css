@@ -9,10 +9,26 @@
     text-transform: uppercase;
 }
 
+.Navigation__link {
+    margin-left: 16px;
+}
+
+.Navigation__link :first-child{
+    margin: 0;
+}
+
 .Navigation__link:Hover {
     text-decoration: none;
     color: white;
     opacity: 0.8;
+}
+
+.Navigation__action {
+    margin-left: 26px;
+}
+
+.Navigation__action :first-child {
+    margin: 0;
 }
 
 .Navigation__actions {
@@ -23,4 +39,5 @@
 .Navigation {
     display: flex;
     align-items: center;
-}
+    padding-top: 34px;
+    }
