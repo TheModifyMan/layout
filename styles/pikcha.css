@@ -8,11 +8,21 @@
 .name {
     text-align: center;
     font-size: 24px;
+    margin-left: 50px;
+}
+
+.name :first-child {
+    margin: 0;
 }
 
 .profil {
     font-size: 16px;
     text-align: center;
+    margin-left: 50px;
+}
+
+.profil :first-child {
+    margin: 0;
 }
 
 .soc__networks {
@@ -22,11 +32,13 @@
 }
 
 .worker {
+    margin-top: 69px;
     height: 226px;
-    align-items: center;
+    align-items: ;
     width: 224px;
-    display: flex;
-    margin-top: 98px;
-    flex-direction: row;
-    align-items: center;
+    margin-left: 89px;
+}
+
+.worker :first-child {
+    margin: 0;
 }
