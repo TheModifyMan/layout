@@ -1,0 +1,26 @@
+.pikcha {
+    display: flex;
+    margin-top: 98px;
+    flex-direction: row;
+}
+
+.name {
+    text-align: center;
+    font-size: 24px;
+}
+
+.profil {
+    font-size: 16px;
+    text-align: center;
+}
+
+.soc__networks {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.worker {
+    height: 226px;
+    width: 224px;
+}

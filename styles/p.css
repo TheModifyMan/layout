@@ -5,6 +5,18 @@
 }
 
 .projects1 {
-    font-weight: normal;
-    fonts
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.swat {
+    margin-top: 116px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.swat1 {
+    font-weight: bold;
+    font-size: 16px;
 }
