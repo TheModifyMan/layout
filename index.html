@@ -28,7 +28,7 @@
             <div class="head__left"></div>
             <div class="head__right"></div>    
             <div class="container">
-                <div class="row justify-content-left">
+                <div class="row">
                     <div class="col-5">
             <div class="logo">
                 <a href="/"><img src="/img/logo.png" alt="logo"></a>
@@ -43,8 +43,8 @@
                 <button class="button">связь с нами</button>
             </div>
             </div>
-            <div clsas="row justify-content-end">
-            <div class="col-12 offset-7">
+
+            <div class="col-7">
                 <div class="Navigation">
                     <ul class="Navigation__list">
                         <li><a class="Navigation__link" href="https://upyachka.io/"> Домой</a></li>
@@ -69,13 +69,13 @@
             </h1>
             <h2>
                 <div class="projects1">
-                    Зацени наши отличные проекты, мы занимаемся всякие крутые штучки
+                    Зацени наши отличные проекты, мы занимаемся всякими крутыми штучками
                     типа веб-дизайна, разработки приложений и даже маркетингом 
                 </div>
             </h2>
                 </div>
                 </div>
-                <div class="row">     
+            <div class="row">    
                 <div class="col-4">
                     <p class="pikcha"><a href="/" class="rollover"></a><p>
                 </div>
@@ -86,23 +86,23 @@
                     <p class="pikcha"><a href="/" class="rollover2"></a>
                 </div>
             </div>
-            <div class="row">
+            <div class="col-12">
             <div>
-                <p>
+                <p class="amigo">
                     Че, понравилось, что увидел, амиго, тогда зацени, больше наших работ
                 </p>
             </div>
             <div class="col-4 offset-5">
-            <div>
-            <button class="button1">БОЛЬШЕ ПРОЕКТОВ</button>
-            </div>
-        </div> 
+                <div>
+                <button class="button1">БОЛЬШЕ ПРОЕКТОВ</button>
+                </div>
+            </div> 
         </div>  
         </section>
-        <section>
+        <section class="head__workers">
         <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-12">
             <h1 class="projects">
                 <div>
                     Команда
@@ -114,7 +114,7 @@
                 </div>
             </h2>
             </div>
-            </div>
+        </div>
         <div class="row">    
         <div class="col-4">
             <a href="/"><img class="worker" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMhZ3VIeEk8b5-vSLMiYyLFiZAVXlLd1cRp6gKgqebsUEbPDS"></a>
@@ -130,9 +130,9 @@
                 </h2>
             <div>
                 <ul class="soc__networks">
-                    <li class="soc__networks"><a href="/"><img src="/img/Path.png" alt="path"></a></li>
-                    <li class="soc__networks"><a href="/"><img src="/img/inst.png" alt="inst"></a></li>
-                    <li class="soc__networks"><a href="/"><img src="/img/twiTOR.png" alt="twitter"></a></li>
+                    <li class="soc__network"><a href="/"><img src="/img/Path.png" alt="path"></a></li>
+                    <li class="soc__network"><a href="/"><img src="/img/inst.png" alt="inst"></a></li>
+                    <li class="soc__network"><a href="/"><img src="/img/twiTOR.png" alt="twitter"></a></li>
                 </ul>
             </div>
         </div>
@@ -150,9 +150,9 @@
                 </h2>
             <div>
                 <ul class="soc__networks">
-                    <li class="soc__network" ><ahref="/"><img src="/img/Path.png" alt="path"></a></li>
-                    <li class="soc__network" ><ahref="/"><img src="/img/inst.png" alt="inst"></a></li>
-                    <li class="soc__network" ><ahref="/"><img src="/img/twiTOR.png" alt="twitter"></a></li>
+                    <li class="soc__network" ><a href="/"><img src="/img/Path.png" alt="path"></a></li>
+                    <li class="soc__network" ><a href="/"><img src="/img/inst.png" alt="inst"></a></li>
+                    <li class="soc__network" ><a href="/"><img src="/img/twiTOR.png" alt="twitter"></a></li>
                 </ul>
             </div>
         </div>
@@ -165,14 +165,14 @@
                 </h1>
                 <h2>
                     <div class="profil">
-                        Легендарный пират
+                        Новый пират
                     </div>
                 </h2>
             <div>
                 <ul class="soc__networks">
-                    <li class="soc__networks"><a href="/"><img src="/img/Path.png" alt="path"></a></li>
-                    <li class="soc__networks"><a href="/"><img src="/img/inst.png" alt="inst"></a></li>
-                    <li class="soc__networks"><a href="/"><img src="/img/twiTOR.png" alt="twitter"></a></li>
+                    <li class="soc__network"><a href="/"><img src="/img/Path.png" alt="path"></a></li>
+                    <li class="soc__network"><a href="/"><img src="/img/inst.png" alt="inst"></a></li>
+                    <li class="soc__network"><a href="/"></a><img src="/img/twiTOR.png" alt="twitter"></a></li>
                 </ul>
             </div>
         </div>
@@ -182,16 +182,34 @@
         <div class="container">
             <div class="row">
             <div class="col-6">
-            <h1>
+            <h1 class="projects">
                 <div>
-                    Contact us
+                    Связь с нами
                 </div>
             </h1>
-            <h2>
+            <h2 class="projects__last">
                 <div>
-                    Like what 
+                    Нравится, что увидели? Мы ждём с нетерпением, когда вы свяжетесь с нами, чтобы поговорить о бизнесе 
                 </div>
             </h2>
+        <p class="forma">
+            <div>
+                <form action="textarea1.php" method="post">
+                        <p><textarea placeholder="Ваше имя" rows="1" cols="45" name="text"></textarea></p>
+                </form>
+                <form action="textarea1.php" method="post">
+                        <p><textarea placeholder="Ваш e-mail" rows="1" cols="45" name="text"></textarea></p>
+                </form>
+                <form action="textarea1.php" method="post">
+                        <p><textarea placeholder="Тип запроса" rows="1" cols="20" name="text"></textarea></p>
+                </form>
+                <form action="textarea1.php" method="post">
+                        <p><textarea placeholder="Введите поподробней че вам надо" rows="10" cols="90" name="text"></textarea></p>
+                <p><input class="send" type="submit" value="Отправить"></p>
+                </form>
+            </div>
+        </p>
+        </div>
         </section>
     </body>
 </html>

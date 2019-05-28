@@ -13,3 +13,26 @@
     color: white;
     text-transform: uppercase;
 }
+
+.projects {
+    margin-top: 116px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.projects1 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.projects__last {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.amigo {
+    display: flex;
+    margin-top: 99px;
+    justify-content: center;
+    padding-left: 110px 
+}

@@ -1,4 +1,5 @@
 .Navigation__list {
+    justify-content: right;
     display: flex;
     flex-direction: row;   
 }
@@ -32,11 +33,13 @@
 }
 
 .Navigation__actions {
+    justify-content: right;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .Navigation {
+    justify-content: flex-end;
     display: flex;
     padding-top: 34px;
     flex-direction: row;
