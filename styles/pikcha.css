@@ -13,8 +13,12 @@
 }
 
 .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
     font-size: 24px;
+    padding-left: 40px;
     margin-left: 50px;
 }
 
@@ -26,7 +30,6 @@
     color: #A3A3A3;
     font-size: 16px;
     text-align: center;
-    justify-content: center;
     margin-left: 50px;
 }
 
@@ -39,7 +42,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 .soc__network {
