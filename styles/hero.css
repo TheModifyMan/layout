@@ -28,6 +28,13 @@
 .projects__last {
     font-weight: normal;
     font-size: 15px;
+    justify-content: flex-start
+}
+
+.projects__last1 {
+    font-weight: normal;
+    font-size: 15px;
+    justify-content: flex-start;
 }
 
 .amigo {
@@ -35,4 +42,8 @@
     margin-top: 99px;
     justify-content: center;
     padding-left: 110px 
+}
+
+.linking {
+    margin-left: 30px
 }
